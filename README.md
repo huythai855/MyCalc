@@ -17,6 +17,8 @@
 - Tel: (+84) 946590882
 - Email: nguyenhuythai15@gmail.com
 - Facebook: https://www.facebook.com/huythai855/
-- **Charlie of NNL <3**
 
- ![image](https://user-images.githubusercontent.com/51937716/149208037-cbf917f9-392d-4dde-aafe-dbe20689cbc2.png)
+
+## **Charlie of NNL <3**
+![image](https://user-images.githubusercontent.com/51937716/149208599-881d4ea3-dc91-44f3-867e-2b22ced52519.png)
+
