@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/b_mul"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="*"
+            app:layout_constraintStart_toEndOf="@+id/b_sub"
+            app:layout_constraintTop_toTopOf="@+id/b_sub" />
+
+        <Button
+            android:id="@+id/b_num9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="9"
+            app:layout_constraintStart_toEndOf="@+id/b_num8"
+            app:layout_constraintTop_toBottomOf="@+id/b_sub" />
+
+        <Button
+            android:id="@+id/b_num6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="6"
+            app:layout_constraintStart_toEndOf="@+id/b_num5"
+            app:layout_constraintTop_toTopOf="@+id/b_num5" />
+
+        <Button
+            android:id="@+id/b_num3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="3"
+            app:layout_constraintStart_toEndOf="@+id/b_num2"
+            app:layout_constraintTop_toTopOf="@+id/b_num2" />
+
+        <Button
+            android:id="@+id/b_add"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="+"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/b_num7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="7"
+            app:layout_constraintStart_toStartOf="@+id/b_add"
+            app:layout_constraintTop_toBottomOf="@+id/b_add" />
+
+        <Button
+            android:id="@+id/b_num4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="4"
+            app:layout_constraintStart_toStartOf="@+id/b_num7"
+            app:layout_constraintTop_toBottomOf="@+id/b_num7" />
+
+        <Button
+            android:id="@+id/b_num1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="1"
+            app:layout_constraintStart_toStartOf="@+id/b_num4"
+            app:layout_constraintTop_toBottomOf="@+id/b_num4" />
+
+        <Button
+            android:id="@+id/b_num0"
+            android:layout_width="270dp"
+            android:layout_height="90dp"
+            android:text="0"
+            app:layout_constraintStart_toStartOf="@+id/b_num1"
+            app:layout_constraintTop_toBottomOf="@+id/b_num2" />
+
+        <Button
+            android:id="@+id/b_div"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="/"
+            app:layout_constraintStart_toEndOf="@+id/b_mul"
+            app:layout_constraintTop_toTopOf="@+id/b_mul" />
+
+        <Button
+            android:id="@+id/b_del"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="DEL"
+            app:layout_constraintStart_toEndOf="@+id/b_num9"
+            app:layout_constraintTop_toTopOf="@+id/b_num9" />
+
+        <Button
+            android:id="@+id/b_AC"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="AC"
+            app:layout_constraintStart_toEndOf="@+id/b_num6"
+            app:layout_constraintTop_toTopOf="@+id/b_num6" />
+
+        <Button
+            android:id="@+id/b_equal"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="="
+            app:layout_constraintStart_toEndOf="@+id/b_num0"
+            app:layout_constraintTop_toBottomOf="@+id/b_dot" />
+
+        <Button
+            android:id="@+id/b_dot"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="."
+            app:layout_constraintStart_toEndOf="@+id/b_num3"
+            app:layout_constraintTop_toTopOf="@+id/b_num3" />
+
+        <Button
+            android:id="@+id/b_sub"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="-"
+            app:layout_constraintStart_toEndOf="@+id/b_add"
+            app:layout_constraintTop_toTopOf="@+id/b_add" />
+
+        <Button
+            android:id="@+id/b_num8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="8"
+            app:layout_constraintStart_toEndOf="@+id/b_num7"
+            app:layout_constraintTop_toTopOf="@+id/b_num7" />
+
+        <Button
+            android:id="@+id/b_num5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="5"
+            app:layout_constraintStart_toEndOf="@+id/b_num4"
+            app:layout_constraintTop_toBottomOf="@+id/b_num7" />
+
+        <Button
+            android:id="@+id/b_num2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:text="2"
+            app:layout_constraintStart_toEndOf="@+id/b_num1"
+            app:layout_constraintTop_toTopOf="@+id/b_num1" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Result"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/cl_1"
+        app:layout_constraintEnd_toEndOf="@+id/cl_1" />
+
+    <TextView
+        android:id="@+id/tv_result2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Result2"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_function"
+        app:layout_constraintEnd_toEndOf="@+id/tv_function" />
+
+    <TextView
+        android:id="@+id/tv_result3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Result3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_function2"
+        app:layout_constraintEnd_toEndOf="@+id/tv_function2" />
+
+    <TextView
+        android:id="@+id/tv_function"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="Function"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_result"
+        app:layout_constraintEnd_toEndOf="@+id/tv_result" />
+
+    <TextView
+        android:id="@+id/tv_function2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Function2"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_result2"
+        app:layout_constraintEnd_toEndOf="@+id/tv_result2" />
+
+    <TextView
+        android:id="@+id/tv_function3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Function3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_result3"
+        app:layout_constraintEnd_toEndOf="@+id/tv_function2" />
+
+</android.support.constraint.ConstraintLayout>
