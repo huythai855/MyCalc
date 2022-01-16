@@ -2,7 +2,7 @@
 
 ## Intro
 - This app is not a basic calculator, it's a passord wallet where you can hide your password without being seen by anyone.
-- Written 100% in Java, no permission is needed.
+- Written 100% in Java, no permission needed.
 - Finished in 24 hours by Nguyen Huy Thai
 
 ## How to use
